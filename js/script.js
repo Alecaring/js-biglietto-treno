@@ -9,3 +9,12 @@ if (!isNaN(questKm) && questKm > 0) {
 } else {
     document.getElementById("questKm").innerHTML = `per favore inserisci un numero valido. Ricarica la pagina.`;
 }
+
+// rapporto per calcolare il prezzo in base ai km dell'utente
+let priceKm = questKm * 0.21
+    console.log(priceKm, typeof priceKm);
+
+// poniamo la questione dell'età
+let eta = prompt("inserisci la tua età");
+    eta = parseInt(eta);
+        console.log(eta, typeof eta);
